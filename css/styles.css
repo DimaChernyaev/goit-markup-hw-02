@@ -1,0 +1,142 @@
+:root {
+    --main-color:#2E2F42;
+    --second-color:#434455;
+    --third-color:#FFFFFF;
+    --small-color:#4D5AE5;
+    --button-color:#404BBF;
+    --ligt-color:#F4F4FD;
+}
+
+    body {font-family: 'Roboto', sans-serif;
+        color: var(--main-color);
+        background-color: var(--third-color);
+        letter-spacing: 0.02em;}
+        
+/* Header */
+.header-nav {font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    background-color: var(--third-color);}  
+
+ .logo {font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--main-color);}   
+
+    .logo > span {color: var(--small-color)}
+
+    .link {text-decoration: none;}
+     .link:hover,
+     .link:focus 
+     {color: var(--small-color);}
+        
+    .list {list-style: none;}
+
+    .nav-list {}
+
+        .nav-link {color: var(--main-color);}
+
+    .contact-list {font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;}
+
+        .contact {color: var(--second-color);}
+
+    /* Main */
+    /* Hero section */
+        .hero{background-color: var(--main-color)}
+
+        .hero-title {color: var(--third-color);
+            font-weight: 600;
+            font-size: 56px;
+            line-height: 1;
+            text-align: center;}
+
+            .btn-hero {font-weight: 600;
+                font-size: 16px;
+                line-height: 1.1;
+                letter-spacing: 0.04em;
+                color: var(--third-color);
+                background: var(--small-color);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                border-radius: 4px;}
+
+                .btn-hero:hover,
+                .btn-hero:focus {background-color: var(--button-color);}
+        
+    /* How we are working section */
+        .work {background-color: var(--third-color);}
+                
+        .work-list {}
+        
+         .work-title {font-weight: 600;
+            font-size: 20px;
+            line-height: 1.2;}
+
+            .work-text {color: var(--second-color);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5;}
+
+    /* What are we doing section*/
+        .second-title {font-weight: 600;
+            font-size: 36px;
+            line-height: 1.1;}
+
+    /* Our team */
+        .our-team {background-color: var(--ligt-color);}
+        
+        .team-name {font-weight: 600;
+            font-size: 20px;
+            line-height: 1.2;}
+
+        .team-profession {font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;}
+
+    /* Foother */
+    .foot-logo {color: var(--third-color);
+                line-height: 1.16;}
+
+    .foother-page {background-color: var(--main-color);}
+    
+        .foother-ending {color: var(--ligt-color);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;}
+
+    /* Portfolio */
+    .project-filter {}
+    
+        .btn-projects {font-weight: 600;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            background-color: var(--ligt-color);
+            color: var(--small-color);}
+        
+        .btn-projects:hover,
+        .btn-projects:focus {background-color: var(--small-color);
+        color: var(--third-color);}
+
+        .list {list-style: none;}
+
+        .name-project {color: var(--main-color);
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 1.2;}
+
+            .project-type   {color: var(--second-color);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5;}
+        
+        .pay-text {background-color: var(--small-color);
+            color: var(--ligt-color);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;}
